@@ -1,0 +1,64 @@
+Abstract
+ Bayesian Deep Learning breakthrough and uncertainty advantages
+ Direct Application to NLP field
+ Combined to techniques to switch from freq to baye
+
+Measuring uncertainty in deep learning application becomes increasingly important: 
+It is essential in critical applications, it helps in decision making and it can help to build trust in deep learning applications.
+Traditional methods to estimate uncertainty mainly relied on ensemble methods but recently bayesian methods applied to deep learning started to gain attention and to be applied to complex tasks.
+In this paper we study the applications of Bayesian uncertainty modeling techniques to the Natural Language Processing field, specifically to question answering problems.
+Further, we also want to take advantage of the pretrained NLP models such as BERT and leverage existing techniques to convert a pretrained frequentist model to a bayesian framework.
+This could ultimately lead to models that combine the best of both worlds between pretrained NLP models and uncertainty measurement.
+
+0. Introduction
+
+---- Pourquoi de l'incertitude dans les modèles de NLP
+
+Obtaining a confidence value in the predictions a model outputs has always been an active field of research. It became all the more important these last years 
+with the use of artificial intelligence and deep learning models in critical applications such as self-driving vehicle, surgery or other application where the life of the user it potentialy at risk. 
+In other fields such as Natural Language Processing, a confidence value can be used to greatly improve the user experience of the software relying on the model, or at the least give insightful information about the model's 
+ applications such as text summary, question answering or even text generation are some examples of problems where a confidence level would greatly improve underlying human-computer interfaces.
+Indeed, a large part of interactions between users and machine are still done with text, in chatbots for example. The idiosyncratic characteristics of human language, its rapidly evolving nature
+or just trending phrases may put off an text analysing system. In such cases, models should be able to identify their own blackspots and inform that the answer is probably incorrect.
+Various methods were tested to counter such scenario and to obtain a meaningful uncertainty estimation. 
+
+
+
+
+- DL sans ensemble > ensemble vue la taille modèle
+
+I. Previous Works
+a/ Uncertainty measures
+- Predictive entropy 
+- Shannon entropy
+
+From the Source: Bayesian Statistics w/ Variational inference
+--> Juste un rappel pour contextualiser
+
+b/ Bayesian deep learning
+    i/ Dropout
+    ii/ bayes by backprop
+    iii/ Deep Variational inference & q & ELBO
+
+c/ Prior estimation with MOPED
+
+d/ Model calibration with AVUC and metrics
+- ECE et al. à retrouver
+
+
+II. Contributions
+
+Applications to NLP (?)
+a/ Application to NLP
+ - Scaled to big models & head only freq to bayesian method
+b/ Uncertainty & Calibration study accros dataset (in domain & cross domain) 
+
++/ Bayeformers
+
+III. Results
+
+
+Cl. Limitations & Further works
+
+
+"Adaptiotion" de BERT pour montrer les incertitudes
